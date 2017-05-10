@@ -32,7 +32,13 @@ h1{
 }
 
 section img{
-    width: 50%;
+    width: 45%;
+}
+
+section p{
+  width: 50%;
+  font-style: italic;
+  font-family: "sans-serif","Josefin Sans";
 }
 
 .one{
@@ -141,4 +147,47 @@ h5{
     font-weight: normal;
     letter-spacing: 1px;
 }
+.titre{
+  display: none;
+  text-decoration: none;
+  color: black;
+  box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.4);
+}
+.headerlist li:hover .titre {
+    display: block;
+    margin-left: -40px;
 
+}
+.titre:hover{
+  font-weight: bold;
+  color: black;
+}
+#tc {
+  width: 50%;
+}
+#exo {
+  width: 50%;
+  display: flex;
+ justify-content: flex-start;
+
+}
+#exo li{
+    background-color: #E1B2A2;
+    border-right: 20px solid white;
+    color: white;
+height: 20px;
+
+}
+h3{
+  width: 50%;
+  padding-top: 20px;
+  text-align: center;
+  font-weight: lighter;
+  background-color: #E1B2A2;
+  color: white;
+  height: 50px;
+}
+#meet {
+  margin-left: -31.5%;
+  font-family: "Arvo";
+}
